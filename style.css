@@ -1,0 +1,16 @@
+.occupaid{
+    width: 60px;
+    height: 25px;
+}
+.available{
+    width: 60px;
+    height: 25px;
+}
+.busseat{
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+}
+.point{
+    cursor: pointer;
+}
