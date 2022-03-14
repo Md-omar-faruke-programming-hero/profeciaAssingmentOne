@@ -19,9 +19,9 @@ const create = document.getElementById('create').addEventListener('click', () =>
 
         swal("Account Create successfully!");
 
-        setTimeout(() => {
-            location.href = '/pages/index.html'
-        }, 3000)
+
+        location.href = '/pages/index.html'
+
 
     }
     else {
@@ -31,6 +31,6 @@ const create = document.getElementById('create').addEventListener('click', () =>
 })
 
 
- document.getElementById('signin').addEventListener('click',()=>{
+document.getElementById('signin').addEventListener('click', () => {
     console.log("hellllo")
 })

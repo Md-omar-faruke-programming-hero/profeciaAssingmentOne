@@ -20,9 +20,9 @@ const signin = document.getElementById('signin').addEventListener('click', () =>
 
     if (checkUser) {
         swal("Login successfully!");
-        setTimeout(() => {
+      
             location.href = '/pages/Home.html'
-        }, 3000)
+        
 
 
 
